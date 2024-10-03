@@ -1,0 +1,1048 @@
+<http://www.semanticweb.org/halaltourism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/halaltourism#definition
+<http://www.semanticweb.org/halaltourism#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://www.w3.org/2001/XMLSchema#duration
+<http://www.w3.org/2001/XMLSchema#duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://www.w3.org/2001/XMLSchema#gYear
+<http://www.w3.org/2001/XMLSchema#gYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/halaltourism#adhereToStandards
+<http://www.semanticweb.org/halaltourism#adhereToStandards> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#adhereToStandards> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#ServiceProviders> .
+<http://www.semanticweb.org/halaltourism#adhereToStandards> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalStandards> .
+# 
+# http://www.semanticweb.org/halaltourism#advisesOn
+<http://www.semanticweb.org/halaltourism#advisesOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#advisesOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#IslamicGovernanceInstitutions> .
+<http://www.semanticweb.org/halaltourism#advisesOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural> .
+# 
+# http://www.semanticweb.org/halaltourism#anticipatesNeeds
+<http://www.semanticweb.org/halaltourism#anticipatesNeeds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#anticipatesNeeds> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalTourismManagement> .
+<http://www.semanticweb.org/halaltourism#anticipatesNeeds> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimGenAlphaTravelers> .
+# 
+# http://www.semanticweb.org/halaltourism#arranges
+<http://www.semanticweb.org/halaltourism#arranges> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#arranges> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalTravelAgency> .
+<http://www.semanticweb.org/halaltourism#arranges> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+# 
+# http://www.semanticweb.org/halaltourism#assistsIn
+<http://www.semanticweb.org/halaltourism#assistsIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#assistsIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications> .
+<http://www.semanticweb.org/halaltourism#assistsIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalTourismActivities> .
+# 
+# http://www.semanticweb.org/halaltourism#caterTo
+<http://www.semanticweb.org/halaltourism#caterTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#caterTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations> .
+<http://www.semanticweb.org/halaltourism#caterTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+# 
+# http://www.semanticweb.org/halaltourism#caterToNeeds
+<http://www.semanticweb.org/halaltourism#caterToNeeds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#caterToNeeds> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAirlines> .
+<http://www.semanticweb.org/halaltourism#caterToNeeds> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+# 
+# http://www.semanticweb.org/halaltourism#certifies
+<http://www.semanticweb.org/halaltourism#certifies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#certifies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities> .
+<http://www.semanticweb.org/halaltourism#certifies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalCertifiedHotels> .
+<http://www.semanticweb.org/halaltourism#certifies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants> .
+# 
+# http://www.semanticweb.org/halaltourism#collaboratesWith
+<http://www.semanticweb.org/halaltourism#collaboratesWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#collaboratesWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalTourOperator> .
+<http://www.semanticweb.org/halaltourism#collaboratesWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalTravelAgency> .
+# 
+# http://www.semanticweb.org/halaltourism#compliesWith
+<http://www.semanticweb.org/halaltourism#compliesWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#compliesWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+<http://www.semanticweb.org/halaltourism#compliesWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#ShariahLawCompliance> .
+# 
+# http://www.semanticweb.org/halaltourism#contains
+<http://www.semanticweb.org/halaltourism#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#contains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Country> .
+<http://www.semanticweb.org/halaltourism#contains> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#Region> .
+# 
+# http://www.semanticweb.org/halaltourism#cooperatesWith
+<http://www.semanticweb.org/halaltourism#cooperatesWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#cooperatesWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#TransportationProviders> .
+<http://www.semanticweb.org/halaltourism#cooperatesWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+# 
+# http://www.semanticweb.org/halaltourism#designedFor
+<http://www.semanticweb.org/halaltourism#designedFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#designedFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications> .
+<http://www.semanticweb.org/halaltourism#designedFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimGenZTravelers> .
+# 
+# http://www.semanticweb.org/halaltourism#designs
+<http://www.semanticweb.org/halaltourism#designs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#designs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalTourismManagement> .
+<http://www.semanticweb.org/halaltourism#designs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#IslamicDressCode> .
+# 
+# http://www.semanticweb.org/halaltourism#dinesAt
+<http://www.semanticweb.org/halaltourism#dinesAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#dinesAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+<http://www.semanticweb.org/halaltourism#dinesAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+# 
+# http://www.semanticweb.org/halaltourism#educatesAbout
+<http://www.semanticweb.org/halaltourism#educatesAbout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#educatesAbout> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#IslamicCulturalCenter> .
+<http://www.semanticweb.org/halaltourism#educatesAbout> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#IslamicLifestyle> .
+# 
+# http://www.semanticweb.org/halaltourism#enforces
+<http://www.semanticweb.org/halaltourism#enforces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#enforces> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#DestinationManagement> .
+<http://www.semanticweb.org/halaltourism#enforces> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#AlcoholFreeEnvironments> .
+# 
+# http://www.semanticweb.org/halaltourism#enforcesEthics
+<http://www.semanticweb.org/halaltourism#enforcesEthics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#enforcesEthics> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural> .
+<http://www.semanticweb.org/halaltourism#enforcesEthics> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+# 
+# http://www.semanticweb.org/halaltourism#ensuresQuality
+<http://www.semanticweb.org/halaltourism#ensuresQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#ensuresQuality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalTourismManagement> .
+<http://www.semanticweb.org/halaltourism#ensuresQuality> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#ServiceQuality> .
+# 
+# http://www.semanticweb.org/halaltourism#facilitates
+<http://www.semanticweb.org/halaltourism#facilitates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#facilitates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#InformationAndTechnology> .
+<http://www.semanticweb.org/halaltourism#facilitates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAirports> .
+<http://www.semanticweb.org/halaltourism#facilitates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalTourismManagement> .
+<http://www.semanticweb.org/halaltourism#facilitates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#WudhuFacilities> .
+# 
+# http://www.semanticweb.org/halaltourism#facilitatesTravel
+<http://www.semanticweb.org/halaltourism#facilitatesTravel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#facilitatesTravel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation> .
+<http://www.semanticweb.org/halaltourism#facilitatesTravel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+# 
+# http://www.semanticweb.org/halaltourism#facilitatesWorship
+<http://www.semanticweb.org/halaltourism#facilitatesWorship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#facilitatesWorship> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Mosques> .
+<http://www.semanticweb.org/halaltourism#facilitatesWorship> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+# 
+# http://www.semanticweb.org/halaltourism#hasAmenity
+<http://www.semanticweb.org/halaltourism#hasAmenity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#hasAmenity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimFriendlyHotels> .
+<http://www.semanticweb.org/halaltourism#hasAmenity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#QiblaDirectionIndicators> .
+# 
+# http://www.semanticweb.org/halaltourism#hasAttraction
+<http://www.semanticweb.org/halaltourism#hasAttraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#hasAttraction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Destination> .
+<http://www.semanticweb.org/halaltourism#hasAttraction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+# 
+# http://www.semanticweb.org/halaltourism#hasAttributes
+<http://www.semanticweb.org/halaltourism#hasAttributes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#hasAttributes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Destination> .
+<http://www.semanticweb.org/halaltourism#hasAttributes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#DestinationAttributes> .
+# 
+# http://www.semanticweb.org/halaltourism#hasCity
+<http://www.semanticweb.org/halaltourism#hasCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#hasCity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Region> .
+<http://www.semanticweb.org/halaltourism#hasCity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#City> .
+# 
+# http://www.semanticweb.org/halaltourism#hasDestination
+<http://www.semanticweb.org/halaltourism#hasDestination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#hasDestination> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+<http://www.semanticweb.org/halaltourism#hasDestination> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#Destination> .
+# 
+# http://www.semanticweb.org/halaltourism#hasFacilities
+<http://www.semanticweb.org/halaltourism#hasFacilities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#hasFacilities> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Destination> .
+<http://www.semanticweb.org/halaltourism#hasFacilities> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures> .
+# 
+# http://www.semanticweb.org/halaltourism#hasFeature
+<http://www.semanticweb.org/halaltourism#hasFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#hasFeature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Accommodation> .
+<http://www.semanticweb.org/halaltourism#hasFeature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#PrayerRooms> .
+# 
+# http://www.semanticweb.org/halaltourism#implementsPractices
+<http://www.semanticweb.org/halaltourism#implementsPractices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#implementsPractices> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalTourismManagement> .
+<http://www.semanticweb.org/halaltourism#implementsPractices> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#SustainableHalalTourismPractices> .
+# 
+# http://www.semanticweb.org/halaltourism#implementsStandards
+<http://www.semanticweb.org/halaltourism#implementsStandards> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#implementsStandards> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#ShariahCompliantHotels> .
+<http://www.semanticweb.org/halaltourism#implementsStandards> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalStandards> .
+# 
+# http://www.semanticweb.org/halaltourism#issues
+<http://www.semanticweb.org/halaltourism#issues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#issues> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities> .
+<http://www.semanticweb.org/halaltourism#issues> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalCertifications> .
+# 
+# http://www.semanticweb.org/halaltourism#locatedIn
+<http://www.semanticweb.org/halaltourism#locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#locatedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Destination> .
+<http://www.semanticweb.org/halaltourism#locatedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#Country> .
+# 
+# http://www.semanticweb.org/halaltourism#maintains
+<http://www.semanticweb.org/halaltourism#maintains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#maintains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#DestinationManagement> .
+<http://www.semanticweb.org/halaltourism#maintains> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#GamblingFreeEnvironments> .
+# 
+# http://www.semanticweb.org/halaltourism#maintainsStandards
+<http://www.semanticweb.org/halaltourism#maintainsStandards> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#maintainsStandards> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#RegulatoryBodies> .
+<http://www.semanticweb.org/halaltourism#maintainsStandards> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalStandards> .
+# 
+# http://www.semanticweb.org/halaltourism#manages
+<http://www.semanticweb.org/halaltourism#manages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#manages> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#AttractionOperators> .
+<http://www.semanticweb.org/halaltourism#manages> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#DestinationManagementOrganizations> .
+<http://www.semanticweb.org/halaltourism#manages> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+<http://www.semanticweb.org/halaltourism#manages> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations> .
+# 
+# http://www.semanticweb.org/halaltourism#offers
+<http://www.semanticweb.org/halaltourism#offers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#offers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+<http://www.semanticweb.org/halaltourism#offers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#NonAlcoholicBeverages> .
+# 
+# http://www.semanticweb.org/halaltourism#offersActivities
+<http://www.semanticweb.org/halaltourism#offersActivities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#offersActivities> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Destination> .
+<http://www.semanticweb.org/halaltourism#offersActivities> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalTourismActivities> .
+# 
+# http://www.semanticweb.org/halaltourism#offersExperience
+<http://www.semanticweb.org/halaltourism#offersExperience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#offersExperience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimFriendlyCruises> .
+<http://www.semanticweb.org/halaltourism#offersExperience> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalTourismActivities> .
+# 
+# http://www.semanticweb.org/halaltourism#offersFoodAndBeverage
+<http://www.semanticweb.org/halaltourism#offersFoodAndBeverage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#offersFoodAndBeverage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Destination> .
+<http://www.semanticweb.org/halaltourism#offersFoodAndBeverage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+# 
+# http://www.semanticweb.org/halaltourism#offersServices
+<http://www.semanticweb.org/halaltourism#offersServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#offersServices> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimFriendlyHealthcareAndWellnessService> .
+<http://www.semanticweb.org/halaltourism#offersServices> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+# 
+# http://www.semanticweb.org/halaltourism#operates
+<http://www.semanticweb.org/halaltourism#operates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#operates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#TransportationProviders> .
+<http://www.semanticweb.org/halaltourism#operates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#TravelAndTransportation> .
+# 
+# http://www.semanticweb.org/halaltourism#organizes
+<http://www.semanticweb.org/halaltourism#organizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#organizes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalTourOperator> .
+<http://www.semanticweb.org/halaltourism#organizes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalTourismActivities> .
+# 
+# http://www.semanticweb.org/halaltourism#organizesPilgrimage
+<http://www.semanticweb.org/halaltourism#organizesPilgrimage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#organizesPilgrimage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalTourOperator> .
+<http://www.semanticweb.org/halaltourism#organizesPilgrimage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#IslamicHeritageSites> .
+# 
+# http://www.semanticweb.org/halaltourism#partOf
+<http://www.semanticweb.org/halaltourism#partOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#partOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Region> .
+<http://www.semanticweb.org/halaltourism#partOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#Country> .
+# 
+# http://www.semanticweb.org/halaltourism#partnersWith
+<http://www.semanticweb.org/halaltourism#partnersWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#partnersWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#AccommodationProviders> .
+<http://www.semanticweb.org/halaltourism#partnersWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#FoodAndBeverageProviders> .
+# 
+# http://www.semanticweb.org/halaltourism#preserves
+<http://www.semanticweb.org/halaltourism#preserves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#preserves> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#IslamicMuseum> .
+# 
+# http://www.semanticweb.org/halaltourism#promotes
+<http://www.semanticweb.org/halaltourism#promotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#promotes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#DestinationManagementOrganizations> .
+<http://www.semanticweb.org/halaltourism#promotes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalTourismWebsites> .
+<http://www.semanticweb.org/halaltourism#promotes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#Destination> .
+<http://www.semanticweb.org/halaltourism#promotes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalTourismActivities> .
+<http://www.semanticweb.org/halaltourism#promotes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations> .
+# 
+# http://www.semanticweb.org/halaltourism#promotesCulture
+<http://www.semanticweb.org/halaltourism#promotesCulture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#promotesCulture> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#IslamicHospitality> .
+<http://www.semanticweb.org/halaltourism#promotesCulture> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural> .
+# 
+# http://www.semanticweb.org/halaltourism#provides
+<http://www.semanticweb.org/halaltourism#provides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#provides> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Accommodation> .
+<http://www.semanticweb.org/halaltourism#provides> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+<http://www.semanticweb.org/halaltourism#provides> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalFood> .
+<http://www.semanticweb.org/halaltourism#provides> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalSwimmingSuits> .
+# 
+# http://www.semanticweb.org/halaltourism#providesAccommodation
+<http://www.semanticweb.org/halaltourism#providesAccommodation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#providesAccommodation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Destination> .
+<http://www.semanticweb.org/halaltourism#providesAccommodation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#Accommodation> .
+# 
+# http://www.semanticweb.org/halaltourism#providesGuidance
+<http://www.semanticweb.org/halaltourism#providesGuidance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#providesGuidance> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#IslamicGovernanceInstitutions> .
+<http://www.semanticweb.org/halaltourism#providesGuidance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#ShariahLawCompliance> .
+# 
+# http://www.semanticweb.org/halaltourism#providesPrivacy
+<http://www.semanticweb.org/halaltourism#providesPrivacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#providesPrivacy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#GenderSegregatedAreas> .
+<http://www.semanticweb.org/halaltourism#providesPrivacy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+# 
+# http://www.semanticweb.org/halaltourism#regulates
+<http://www.semanticweb.org/halaltourism#regulates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#regulates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#RegulatoryBodies> .
+<http://www.semanticweb.org/halaltourism#regulates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+# 
+# http://www.semanticweb.org/halaltourism#sells
+<http://www.semanticweb.org/halaltourism#sells> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#sells> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#ServiceProviders> .
+<http://www.semanticweb.org/halaltourism#sells> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Shopping> .
+<http://www.semanticweb.org/halaltourism#sells> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalCosmetics> .
+<http://www.semanticweb.org/halaltourism#sells> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalProducts> .
+# 
+# http://www.semanticweb.org/halaltourism#staysAt
+<http://www.semanticweb.org/halaltourism#staysAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#staysAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+<http://www.semanticweb.org/halaltourism#staysAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#Accommodation> .
+# 
+# http://www.semanticweb.org/halaltourism#supports
+<http://www.semanticweb.org/halaltourism#supports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#supports> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#InformationAndTechnology> .
+<http://www.semanticweb.org/halaltourism#supports> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+# 
+# http://www.semanticweb.org/halaltourism#supportsNeeds
+<http://www.semanticweb.org/halaltourism#supportsNeeds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#supportsNeeds> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations> .
+<http://www.semanticweb.org/halaltourism#supportsNeeds> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimWomenTravelers> .
+# 
+# http://www.semanticweb.org/halaltourism#targetsAudience
+<http://www.semanticweb.org/halaltourism#targetsAudience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#targetsAudience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalTourismActivities> .
+<http://www.semanticweb.org/halaltourism#targetsAudience> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimMillennialTravelers> .
+# 
+# http://www.semanticweb.org/halaltourism#uses
+<http://www.semanticweb.org/halaltourism#uses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#uses> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+<http://www.semanticweb.org/halaltourism#uses> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalProducts> .
+<http://www.semanticweb.org/halaltourism#uses> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#TravelAndTransportation> .
+# 
+# http://www.semanticweb.org/halaltourism#verifies
+<http://www.semanticweb.org/halaltourism#verifies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#verifies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities> .
+<http://www.semanticweb.org/halaltourism#verifies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#HalalFood> .
+# 
+# http://www.semanticweb.org/halaltourism#visits
+<http://www.semanticweb.org/halaltourism#visits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/halaltourism#visits> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+<http://www.semanticweb.org/halaltourism#visits> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/halaltourism#hasAddress
+<http://www.semanticweb.org/halaltourism#hasAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasAddress> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Accommodation> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/halaltourism#hasAmenitiesList
+<http://www.semanticweb.org/halaltourism#hasAmenitiesList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasAmenitiesList> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#unionOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Accommodation> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasAmenitiesList> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/halaltourism#hasCapacity
+<http://www.semanticweb.org/halaltourism#hasCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasCapacity> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#unionOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#PrayerRooms> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Accommodation> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasCapacity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/halaltourism#hasCapacityFemale
+<http://www.semanticweb.org/halaltourism#hasCapacityFemale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasCapacityFemale> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#GenderSegregatedAreas> .
+<http://www.semanticweb.org/halaltourism#hasCapacityFemale> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/halaltourism#hasCapacityMale
+<http://www.semanticweb.org/halaltourism#hasCapacityMale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasCapacityMale> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#GenderSegregatedAreas> .
+<http://www.semanticweb.org/halaltourism#hasCapacityMale> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/halaltourism#hasCertificationDate
+<http://www.semanticweb.org/halaltourism#hasCertificationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasCertificationDate> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#unionOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#HalalCertifiedHotels> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasCertificationDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+# 
+# http://www.semanticweb.org/halaltourism#hasContactInfo
+<http://www.semanticweb.org/halaltourism#hasContactInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasContactInfo> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#unionOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#ServiceProviders> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Accommodation> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasContactInfo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/halaltourism#hasDescription
+<http://www.semanticweb.org/halaltourism#hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#unionOf> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#TravelAndTransportation> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#HalalTourismActivities> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#DestinationsAndAttractions> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Accommodation> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/halaltourism#hasEstablishmentDate
+<http://www.semanticweb.org/halaltourism#hasEstablishmentDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasEstablishmentDate> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#unionOf> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#ServiceProviders> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Accommodation> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasEstablishmentDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+# 
+# http://www.semanticweb.org/halaltourism#hasExpiryDate
+<http://www.semanticweb.org/halaltourism#hasExpiryDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasExpiryDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalCertifications> .
+<http://www.semanticweb.org/halaltourism#hasExpiryDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+# 
+# http://www.semanticweb.org/halaltourism#hasFoundingYear
+<http://www.semanticweb.org/halaltourism#hasFoundingYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasFoundingYear> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#ServiceProviders> .
+<http://www.semanticweb.org/halaltourism#hasFoundingYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
+# 
+# http://www.semanticweb.org/halaltourism#hasHalalCertificationAuthority
+<http://www.semanticweb.org/halaltourism#hasHalalCertificationAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasHalalCertificationAuthority> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#unionOf> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#HalalCertifiedHotels> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasHalalCertificationAuthority> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/halaltourism#hasLanguages
+<http://www.semanticweb.org/halaltourism#hasLanguages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasLanguages> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#unionOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#HalalTourismWebsites> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasLanguages> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/halaltourism#hasLatitude
+<http://www.semanticweb.org/halaltourism#hasLatitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasLatitude> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#unionOf> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Mosques> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Destination> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasLatitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/halaltourism#hasLongitude
+<http://www.semanticweb.org/halaltourism#hasLongitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasLongitude> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#unionOf> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Mosques> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Destination> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasLongitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/halaltourism#hasMenuItems
+<http://www.semanticweb.org/halaltourism#hasMenuItems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasMenuItems> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+<http://www.semanticweb.org/halaltourism#hasMenuItems> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/halaltourism#hasName
+<http://www.semanticweb.org/halaltourism#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid45 .
+_:genid45 <http://www.w3.org/2002/07/owl#unionOf> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#TravelAndTransportation> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#ServiceProviders> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#HalalTourismActivities> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Destination> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Accommodation> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/halaltourism#hasNumberOfReviews
+<http://www.semanticweb.org/halaltourism#hasNumberOfReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasNumberOfReviews> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid53 .
+_:genid53 <http://www.w3.org/2002/07/owl#unionOf> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Accommodation> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasNumberOfReviews> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/halaltourism#hasOpeningHours
+<http://www.semanticweb.org/halaltourism#hasOpeningHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasOpeningHours> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid57 .
+_:genid57 <http://www.w3.org/2002/07/owl#unionOf> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Mosques> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasOpeningHours> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/halaltourism#hasPrayerTimes
+<http://www.semanticweb.org/halaltourism#hasPrayerTimes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasPrayerTimes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#Mosques> .
+<http://www.semanticweb.org/halaltourism#hasPrayerTimes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/halaltourism#hasPriceRange
+<http://www.semanticweb.org/halaltourism#hasPriceRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasPriceRange> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid61 .
+_:genid61 <http://www.w3.org/2002/07/owl#unionOf> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#HalalTourismActivities> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Accommodation> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasPriceRange> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/halaltourism#hasRating
+<http://www.semanticweb.org/halaltourism#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid65 .
+_:genid65 <http://www.w3.org/2002/07/owl#unionOf> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#MuslimFriendlyHotels> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/halaltourism#hasReviewScore
+<http://www.semanticweb.org/halaltourism#hasReviewScore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasReviewScore> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid69 .
+_:genid69 <http://www.w3.org/2002/07/owl#unionOf> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Accommodation> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasReviewScore> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/halaltourism#hasTourDuration
+<http://www.semanticweb.org/halaltourism#hasTourDuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasTourDuration> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/halaltourism#HalalTourismActivities> .
+<http://www.semanticweb.org/halaltourism#hasTourDuration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#duration> .
+# 
+# http://www.semanticweb.org/halaltourism#hasWebsite
+<http://www.semanticweb.org/halaltourism#hasWebsite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/halaltourism#hasWebsite> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid73 .
+_:genid73 <http://www.w3.org/2002/07/owl#unionOf> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#ServiceProviders> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/halaltourism#Destination> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#hasWebsite> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/halaltourism#AblutionFacilities
+<http://www.semanticweb.org/halaltourism#AblutionFacilities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#AblutionFacilities> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/halaltourism#WudhuFacilities> .
+<http://www.semanticweb.org/halaltourism#AblutionFacilities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures> .
+# 
+# http://www.semanticweb.org/halaltourism#Accommodation
+<http://www.semanticweb.org/halaltourism#Accommodation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#Accommodation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+# 
+# http://www.semanticweb.org/halaltourism#AccommodationProviders
+<http://www.semanticweb.org/halaltourism#AccommodationProviders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#AccommodationProviders> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#ServiceProviders> .
+# 
+# http://www.semanticweb.org/halaltourism#AlcoholFreeEnvironments
+<http://www.semanticweb.org/halaltourism#AlcoholFreeEnvironments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#AlcoholFreeEnvironments> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural> .
+# 
+# http://www.semanticweb.org/halaltourism#AttractionOperators
+<http://www.semanticweb.org/halaltourism#AttractionOperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#AttractionOperators> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#ServiceProviders> .
+# 
+# http://www.semanticweb.org/halaltourism#City
+<http://www.semanticweb.org/halaltourism#City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Region> .
+# 
+# http://www.semanticweb.org/halaltourism#Country
+<http://www.semanticweb.org/halaltourism#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Destination> .
+# 
+# http://www.semanticweb.org/halaltourism#Destination
+<http://www.semanticweb.org/halaltourism#Destination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#Destination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#DestinationsAndAttractions> .
+# 
+# http://www.semanticweb.org/halaltourism#DestinationAttributes
+<http://www.semanticweb.org/halaltourism#DestinationAttributes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#DestinationAttributes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Destination> .
+# 
+# http://www.semanticweb.org/halaltourism#DestinationManagement
+<http://www.semanticweb.org/halaltourism#DestinationManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#DestinationManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourismManagement> .
+# 
+# http://www.semanticweb.org/halaltourism#DestinationManagementOrganizations
+<http://www.semanticweb.org/halaltourism#DestinationManagementOrganizations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#DestinationManagementOrganizations> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/halaltourism#TourismBoards> .
+<http://www.semanticweb.org/halaltourism#DestinationManagementOrganizations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Stakeholders> .
+# 
+# http://www.semanticweb.org/halaltourism#DestinationsAndAttractions
+<http://www.semanticweb.org/halaltourism#DestinationsAndAttractions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#DestinationsAndAttractions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+# 
+# http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures
+<http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+# 
+# http://www.semanticweb.org/halaltourism#FoodAndBeverage
+<http://www.semanticweb.org/halaltourism#FoodAndBeverage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#FoodAndBeverage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+# 
+# http://www.semanticweb.org/halaltourism#FoodAndBeverageProviders
+<http://www.semanticweb.org/halaltourism#FoodAndBeverageProviders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#FoodAndBeverageProviders> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#ServiceProviders> .
+# 
+# http://www.semanticweb.org/halaltourism#GamblingFreeEnvironments
+<http://www.semanticweb.org/halaltourism#GamblingFreeEnvironments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#GamblingFreeEnvironments> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural> .
+# 
+# http://www.semanticweb.org/halaltourism#GenderSegregatedAreas
+<http://www.semanticweb.org/halaltourism#GenderSegregatedAreas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#GenderSegregatedAreas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#DestinationAttributes> .
+# 
+# http://www.semanticweb.org/halaltourism#GenderSegregatedRecreaationalFacilities
+<http://www.semanticweb.org/halaltourism#GenderSegregatedRecreaationalFacilities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#GenderSegregatedRecreaationalFacilities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures> .
+# 
+# http://www.semanticweb.org/halaltourism#GenderSegregatedRecreationalFacilities
+<http://www.semanticweb.org/halaltourism#GenderSegregatedRecreationalFacilities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#GenderSegregatedRecreationalFacilities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourismActivities> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities
+<http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#RegulatoryBodies> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalCertifications
+<http://www.semanticweb.org/halaltourism#HalalCertifications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalCertifications> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#RegulationsAndCompliance> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalCertifiedHotels
+<http://www.semanticweb.org/halaltourism#HalalCertifiedHotels> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalCertifiedHotels> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Accommodation> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants
+<http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalCosmetics
+<http://www.semanticweb.org/halaltourism#HalalCosmetics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalCosmetics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalProducts> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalFood
+<http://www.semanticweb.org/halaltourism#HalalFood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalFood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+<http://www.semanticweb.org/halaltourism#HalalFood> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalProducts> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalFriendlyDestinations
+<http://www.semanticweb.org/halaltourism#HalalFriendlyDestinations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalFriendlyDestinations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#DestinationAttributes> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalProducts
+<http://www.semanticweb.org/halaltourism#HalalProducts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalProducts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Shopping> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalStandards
+<http://www.semanticweb.org/halaltourism#HalalStandards> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalStandards> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#RegulationsAndCompliance> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalSwimmingSuits
+<http://www.semanticweb.org/halaltourism#HalalSwimmingSuits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalSwimmingSuits> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalProducts> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalTourOperator
+<http://www.semanticweb.org/halaltourism#HalalTourOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalTourOperator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#ServiceProviders> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalTourism
+<http://www.semanticweb.org/halaltourism#HalalTourism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalTourism> <http://www.semanticweb.org/halaltourism#definition> "Tourism services and activities that adhere to Islamic principles, catering primarily to Muslim travelers but also accessible to non-Muslims. This encompasses all aspects of travel that comply with Shariah law, including accommodation, food, activities, and facilities." .
+# 
+# http://www.semanticweb.org/halaltourism#HalalTourismActivities
+<http://www.semanticweb.org/halaltourism#HalalTourismActivities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalTourismActivities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#DestinationsAndAttractions> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalTourismManagement
+<http://www.semanticweb.org/halaltourism#HalalTourismManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalTourismManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalTourismWebsites
+<http://www.semanticweb.org/halaltourism#HalalTourismWebsites> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalTourismWebsites> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#InformationAndTechnology> .
+# 
+# http://www.semanticweb.org/halaltourism#HalalTravelAgency
+<http://www.semanticweb.org/halaltourism#HalalTravelAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#HalalTravelAgency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#ServiceProviders> .
+# 
+# http://www.semanticweb.org/halaltourism#InformationAndTechnology
+<http://www.semanticweb.org/halaltourism#InformationAndTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#InformationAndTechnology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+# 
+# http://www.semanticweb.org/halaltourism#IslamicCulturalCenter
+<http://www.semanticweb.org/halaltourism#IslamicCulturalCenter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#IslamicCulturalCenter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures> .
+# 
+# http://www.semanticweb.org/halaltourism#IslamicDressCode
+<http://www.semanticweb.org/halaltourism#IslamicDressCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#IslamicDressCode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural> .
+# 
+# http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural
+<http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+# 
+# http://www.semanticweb.org/halaltourism#IslamicGovernanceInstitutions
+<http://www.semanticweb.org/halaltourism#IslamicGovernanceInstitutions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#IslamicGovernanceInstitutions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#RegulatoryBodies> .
+# 
+# http://www.semanticweb.org/halaltourism#IslamicHeritageSites
+<http://www.semanticweb.org/halaltourism#IslamicHeritageSites> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#IslamicHeritageSites> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+# 
+# http://www.semanticweb.org/halaltourism#IslamicHospitality
+<http://www.semanticweb.org/halaltourism#IslamicHospitality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#IslamicHospitality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural> .
+# 
+# http://www.semanticweb.org/halaltourism#IslamicLifestyle
+<http://www.semanticweb.org/halaltourism#IslamicLifestyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#IslamicLifestyle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural> .
+# 
+# http://www.semanticweb.org/halaltourism#IslamicMuseum
+<http://www.semanticweb.org/halaltourism#IslamicMuseum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#IslamicMuseum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> .
+# 
+# http://www.semanticweb.org/halaltourism#Mosques
+<http://www.semanticweb.org/halaltourism#Mosques> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#Mosques> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimFriendlyAirlines
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyAirlines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyAirlines> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#TravelAndTransportation> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimFriendlyAirports
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyAirports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyAirports> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#TravelAndTransportation> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#DestinationsAndAttractions> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimFriendlyBus
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyBus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyBus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimFriendlyCruises
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyCruises> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyCruises> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#TravelAndTransportation> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#TravelAndTransportation> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimFriendlyHealthcareAndWellnessService
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyHealthcareAndWellnessService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyHealthcareAndWellnessService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourismActivities> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimFriendlyHotels
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyHotels> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyHotels> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Accommodation> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#InformationAndTechnology> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimFriendlyRestaurants
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyRestaurants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyRestaurants> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Destination> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimFriendlyVan
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyVan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimFriendlyVan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimGenAlphaTravelers
+<http://www.semanticweb.org/halaltourism#MuslimGenAlphaTravelers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimGenAlphaTravelers> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimGenYTravelers
+<http://www.semanticweb.org/halaltourism#MuslimGenYTravelers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimGenYTravelers> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/halaltourism#MuslimMillennialTravelers> .
+<http://www.semanticweb.org/halaltourism#MuslimGenYTravelers> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimGenZTravelers
+<http://www.semanticweb.org/halaltourism#MuslimGenZTravelers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimGenZTravelers> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimMillennialTravelers
+<http://www.semanticweb.org/halaltourism#MuslimMillennialTravelers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimMillennialTravelers> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimTourists
+<http://www.semanticweb.org/halaltourism#MuslimTourists> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimTourists> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Tourists> .
+# 
+# http://www.semanticweb.org/halaltourism#MuslimWomenTravelers
+<http://www.semanticweb.org/halaltourism#MuslimWomenTravelers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#MuslimWomenTravelers> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#MuslimTourists> .
+# 
+# http://www.semanticweb.org/halaltourism#NonAlcoholicBeverages
+<http://www.semanticweb.org/halaltourism#NonAlcoholicBeverages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#NonAlcoholicBeverages> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#FoodAndBeverage> .
+# 
+# http://www.semanticweb.org/halaltourism#PrayerFacilitiesAtDestinations
+<http://www.semanticweb.org/halaltourism#PrayerFacilitiesAtDestinations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#PrayerFacilitiesAtDestinations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#DestinationAttributes> .
+# 
+# http://www.semanticweb.org/halaltourism#PrayerRooms
+<http://www.semanticweb.org/halaltourism#PrayerRooms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#PrayerRooms> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures> .
+# 
+# http://www.semanticweb.org/halaltourism#QiblaDirectionIndicators
+<http://www.semanticweb.org/halaltourism#QiblaDirectionIndicators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#QiblaDirectionIndicators> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures> .
+# 
+# http://www.semanticweb.org/halaltourism#Region
+<http://www.semanticweb.org/halaltourism#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Country> .
+# 
+# http://www.semanticweb.org/halaltourism#RegulationsAndCompliance
+<http://www.semanticweb.org/halaltourism#RegulationsAndCompliance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#RegulationsAndCompliance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+# 
+# http://www.semanticweb.org/halaltourism#RegulatoryBodies
+<http://www.semanticweb.org/halaltourism#RegulatoryBodies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#RegulatoryBodies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Stakeholders> .
+# 
+# http://www.semanticweb.org/halaltourism#ServiceProviders
+<http://www.semanticweb.org/halaltourism#ServiceProviders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#ServiceProviders> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Stakeholders> .
+# 
+# http://www.semanticweb.org/halaltourism#ServiceQuality
+<http://www.semanticweb.org/halaltourism#ServiceQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#ServiceQuality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourismManagement> .
+# 
+# http://www.semanticweb.org/halaltourism#ShariahCompliantHotels
+<http://www.semanticweb.org/halaltourism#ShariahCompliantHotels> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#ShariahCompliantHotels> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Accommodation> .
+# 
+# http://www.semanticweb.org/halaltourism#ShariahLawCompliance
+<http://www.semanticweb.org/halaltourism#ShariahLawCompliance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#ShariahLawCompliance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#RegulationsAndCompliance> .
+# 
+# http://www.semanticweb.org/halaltourism#Shopping
+<http://www.semanticweb.org/halaltourism#Shopping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#Shopping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourismActivities> .
+# 
+# http://www.semanticweb.org/halaltourism#Stakeholders
+<http://www.semanticweb.org/halaltourism#Stakeholders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#Stakeholders> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+# 
+# http://www.semanticweb.org/halaltourism#SustainableHalalTourismPractices
+<http://www.semanticweb.org/halaltourism#SustainableHalalTourismPractices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#SustainableHalalTourismPractices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourismManagement> .
+# 
+# http://www.semanticweb.org/halaltourism#TourismBoards
+<http://www.semanticweb.org/halaltourism#TourismBoards> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#TourismBoards> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Stakeholders> .
+# 
+# http://www.semanticweb.org/halaltourism#Tourists
+<http://www.semanticweb.org/halaltourism#Tourists> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#Tourists> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#Stakeholders> .
+# 
+# http://www.semanticweb.org/halaltourism#TransportationProviders
+<http://www.semanticweb.org/halaltourism#TransportationProviders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#TransportationProviders> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#ServiceProviders> .
+# 
+# http://www.semanticweb.org/halaltourism#TravelAndTransportation
+<http://www.semanticweb.org/halaltourism#TravelAndTransportation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#TravelAndTransportation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#HalalTourism> .
+# 
+# http://www.semanticweb.org/halaltourism#WudhuFacilities
+<http://www.semanticweb.org/halaltourism#WudhuFacilities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/halaltourism#WudhuFacilities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

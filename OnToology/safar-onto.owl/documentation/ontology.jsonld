@@ -1,0 +1,1549 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#HalalCertifiedHotels"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#ServiceProviders"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#DestinationsAndAttractions"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismActivities"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#TravelAndTransportation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#ServiceProviders"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#HalalCertifiedHotels"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismWebsites"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#Mosques"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#Mosques"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismActivities"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#ServiceProviders"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#TravelAndTransportation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#Mosques"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismActivities"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyHotels"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#ServiceProviders"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+    }, {
+      "@id" : "http://www.semanticweb.org/halaltourism#PrayerRooms"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#AblutionFacilities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#WudhuFacilities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#Accommodation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#AccommodationProviders",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#ServiceProviders"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#AlcoholFreeEnvironments",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#AttractionOperators",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#ServiceProviders"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#Destination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#DestinationsAndAttractions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#DestinationAttributes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#DestinationManagement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismManagement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#DestinationManagementOrganizations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Stakeholders"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#TourismBoards"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#DestinationsAndAttractions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverageProviders",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#ServiceProviders"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#GamblingFreeEnvironments",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#GenderSegregatedAreas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#DestinationAttributes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#GenderSegregatedRecreaationalFacilities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#GenderSegregatedRecreationalFacilities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismActivities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#RegulatoryBodies"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalCertifications",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#RegulationsAndCompliance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalCertifiedHotels",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalCosmetics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalProducts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalFood",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+  }, {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalProducts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalFriendlyDestinations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#DestinationAttributes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalProducts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Shopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalStandards",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#RegulationsAndCompliance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalSwimmingSuits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalProducts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalTourOperator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#ServiceProviders"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.semanticweb.org/halaltourism#definition" : [ {
+    "@value" : "Tourism services and activities that adhere to Islamic principles, catering primarily to Muslim travelers but also accessible to non-Muslims. This encompasses all aspects of travel that comply with Shariah law, including accommodation, food, activities, and facilities."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismActivities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#DestinationsAndAttractions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismManagement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismWebsites",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#InformationAndTechnology"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#HalalTravelAgency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#ServiceProviders"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#InformationAndTechnology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#IslamicCulturalCenter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#IslamicDressCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#IslamicGovernanceInstitutions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#RegulatoryBodies"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#IslamicHeritageSites",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#IslamicHospitality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#IslamicLifestyle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#IslamicMuseum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#Mosques",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAirlines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#TravelAndTransportation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAirports",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#TravelAndTransportation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#DestinationsAndAttractions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyBus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyCruises",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#TravelAndTransportation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#TravelAndTransportation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyHealthcareAndWellnessService",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismActivities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyHotels",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#InformationAndTechnology"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyRestaurants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyVan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimGenAlphaTravelers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimGenYTravelers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimMillennialTravelers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimGenZTravelers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimMillennialTravelers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Tourists"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#MuslimWomenTravelers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#NonAlcoholicBeverages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#PrayerFacilitiesAtDestinations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#DestinationAttributes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#PrayerRooms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#QiblaDirectionIndicators",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#Region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#RegulationsAndCompliance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#RegulatoryBodies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Stakeholders"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#ServiceProviders",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Stakeholders"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#ServiceQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismManagement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#ShariahCompliantHotels",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#ShariahLawCompliance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#RegulationsAndCompliance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#Shopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismActivities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#Stakeholders",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#SustainableHalalTourismPractices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismManagement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#TourismBoards",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Stakeholders"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#Tourists",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Stakeholders"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#TransportationProviders",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#ServiceProviders"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#TravelAndTransportation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#WudhuFacilities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#adhereToStandards",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#ServiceProviders"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalStandards"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#advisesOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicGovernanceInstitutions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#anticipatesNeeds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismManagement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimGenAlphaTravelers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#arranges",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTravelAgency"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#assistsIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismActivities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#caterTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#caterToNeeds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAirlines"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#certifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalCertifiedHotels"
+  }, {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#collaboratesWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourOperator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTravelAgency"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#compliesWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#ShariahLawCompliance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#cooperatesWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#TransportationProviders"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#designedFor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimGenZTravelers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#designs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismManagement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicDressCode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#dinesAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#educatesAbout",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicCulturalCenter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicLifestyle"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#enforces",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#DestinationManagement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#AlcoholFreeEnvironments"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#enforcesEthics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#ensuresQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismManagement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#ServiceQuality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#facilitates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#InformationAndTechnology"
+  }, {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAirports"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismManagement"
+  }, {
+    "@id" : "http://www.semanticweb.org/halaltourism#WudhuFacilities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#facilitatesTravel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#facilitatesWorship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Mosques"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasAmenitiesList",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasAmenity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyHotels"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#QiblaDirectionIndicators"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasAttraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasAttributes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#DestinationAttributes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasCapacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasCapacityFemale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#GenderSegregatedAreas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasCapacityMale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#GenderSegregatedAreas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasCertificationDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid12"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasCity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasContactInfo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasDestination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasEstablishmentDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid27"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasExpiryDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalCertifications"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasFacilities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasFeature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#PrayerRooms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasFoundingYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#ServiceProviders"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasHalalCertificationAuthority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid31"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasLanguages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid34"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasLatitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid37"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasLongitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid41"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasMenuItems",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid45"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasNumberOfReviews",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid53"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasOpeningHours",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid57"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasPrayerTimes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Mosques"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasPriceRange",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid61"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid65"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasReviewScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid69"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasTourDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismActivities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#duration"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#hasWebsite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid73"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#implementsPractices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismManagement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#SustainableHalalTourismPractices"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#implementsStandards",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#ShariahCompliantHotels"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalStandards"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#issues",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalCertifications"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#locatedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#maintains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#DestinationManagement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#GamblingFreeEnvironments"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#maintainsStandards",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#RegulatoryBodies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalStandards"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#manages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#AttractionOperators"
+  }, {
+    "@id" : "http://www.semanticweb.org/halaltourism#DestinationManagementOrganizations"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+  }, {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#offers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#NonAlcoholicBeverages"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#offersActivities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismActivities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#offersExperience",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyCruises"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismActivities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#offersFoodAndBeverage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverage"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#offersServices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyHealthcareAndWellnessService"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#operates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#TransportationProviders"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#TravelAndTransportation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#organizes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourOperator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismActivities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#organizesPilgrimage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourOperator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicHeritageSites"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#partOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#partnersWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#AccommodationProviders"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#FoodAndBeverageProviders"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#preserves",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicMuseum"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#promotes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#DestinationManagementOrganizations"
+  }, {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismWebsites"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+  }, {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismActivities"
+  }, {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#promotesCulture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicHospitality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#provides",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+  }, {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalFood"
+  }, {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalSwimmingSuits"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#providesAccommodation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#providesGuidance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#IslamicGovernanceInstitutions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#ShariahLawCompliance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#providesPrivacy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#GenderSegregatedAreas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#regulates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#RegulatoryBodies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#sells",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#ServiceProviders"
+  }, {
+    "@id" : "http://www.semanticweb.org/halaltourism#Shopping"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalCosmetics"
+  }, {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalProducts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#staysAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#Accommodation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#supports",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#InformationAndTechnology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#supportsNeeds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimWomenTravelers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#targetsAudience",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalTourismActivities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimMillennialTravelers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#uses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalProducts"
+  }, {
+    "@id" : "http://www.semanticweb.org/halaltourism#TravelAndTransportation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#verifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#HalalFood"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/halaltourism#visits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimTourists"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#duration",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#gYear",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+} ]
