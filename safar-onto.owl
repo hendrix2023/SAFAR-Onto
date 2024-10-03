@@ -1,0 +1,1570 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/halaltourism#"
+     xml:base="http://www.semanticweb.org/halaltourism"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/halaltourism"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/halaltourism#definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#adhereToStandards -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#adhereToStandards">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#ServiceProviders"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalStandards"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#advisesOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#advisesOn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#IslamicGovernanceInstitutions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#anticipatesNeeds -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#anticipatesNeeds">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismManagement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimGenAlphaTravelers"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#arranges -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#arranges">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalTravelAgency"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#assistsIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#assistsIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismActivities"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#caterTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#caterTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#caterToNeeds -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#caterToNeeds">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyAirlines"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#certifies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#certifies">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalCertifiedHotels"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#collaboratesWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#collaboratesWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourOperator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalTravelAgency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#compliesWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#compliesWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#ShariahLawCompliance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#contains">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#Region"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#cooperatesWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#cooperatesWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#TransportationProviders"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#designedFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#designedFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimGenZTravelers"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#designs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#designs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismManagement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#IslamicDressCode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#dinesAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#dinesAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#educatesAbout -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#educatesAbout">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#IslamicCulturalCenter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#IslamicLifestyle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#enforces -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#enforces">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#DestinationManagement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#AlcoholFreeEnvironments"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#enforcesEthics -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#enforcesEthics">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#ensuresQuality -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#ensuresQuality">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismManagement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#ServiceQuality"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#facilitates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#facilitates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#InformationAndTechnology"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyAirports"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismManagement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#WudhuFacilities"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#facilitatesTravel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#facilitatesTravel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#facilitatesWorship -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#facilitatesWorship">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Mosques"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#hasAmenity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#hasAmenity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyHotels"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#QiblaDirectionIndicators"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#hasAttraction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#hasAttraction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#hasAttributes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#hasAttributes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#DestinationAttributes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#hasCity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#hasCity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Region"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#hasDestination -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#hasDestination">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#Destination"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#hasFacilities -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#hasFacilities">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#hasFeature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#hasFeature">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Accommodation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#PrayerRooms"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#implementsPractices -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#implementsPractices">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismManagement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#SustainableHalalTourismPractices"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#implementsStandards -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#implementsStandards">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#ShariahCompliantHotels"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalStandards"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#issues -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#issues">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalCertifications"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#locatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#locatedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#maintains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#maintains">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#DestinationManagement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#GamblingFreeEnvironments"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#maintainsStandards -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#maintainsStandards">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#RegulatoryBodies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalStandards"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#manages -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#manages">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#AttractionOperators"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#DestinationManagementOrganizations"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#offers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#offers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#NonAlcoholicBeverages"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#offersActivities -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#offersActivities">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismActivities"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#offersExperience -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#offersExperience">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyCruises"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismActivities"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#offersFoodAndBeverage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#offersFoodAndBeverage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#offersServices -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#offersServices">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyHealthcareAndWellnessService"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#operates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#operates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#TransportationProviders"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#TravelAndTransportation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#organizes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#organizes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourOperator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismActivities"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#organizesPilgrimage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#organizesPilgrimage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourOperator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#IslamicHeritageSites"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#partOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#partOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Region"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#partnersWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#partnersWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#AccommodationProviders"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#FoodAndBeverageProviders"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#preserves -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#preserves">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#IslamicMuseum"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#promotes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#promotes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#DestinationManagementOrganizations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismWebsites"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismActivities"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#promotesCulture -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#promotesCulture">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#IslamicHospitality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#provides -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#provides">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Accommodation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalFood"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalSwimmingSuits"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#providesAccommodation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#providesAccommodation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#Accommodation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#providesGuidance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#providesGuidance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#IslamicGovernanceInstitutions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#ShariahLawCompliance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#providesPrivacy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#providesPrivacy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#GenderSegregatedAreas"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#regulates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#regulates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#RegulatoryBodies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#sells -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#sells">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#ServiceProviders"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Shopping"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalCosmetics"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalProducts"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#staysAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#staysAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#Accommodation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#supports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#supports">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#InformationAndTechnology"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#supportsNeeds -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#supportsNeeds">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimWomenTravelers"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#targetsAudience -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#targetsAudience">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismActivities"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimMillennialTravelers"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#uses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#uses">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalProducts"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#TravelAndTransportation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#verifies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#verifies">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#HalalFood"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#visits -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/halaltourism#visits">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasName">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Destination"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#ServiceProviders"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalTourismActivities"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Accommodation"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#TravelAndTransportation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasDescription">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#DestinationsAndAttractions"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalTourismActivities"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Accommodation"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#TravelAndTransportation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasRating">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyHotels"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasAddress">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Accommodation"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasContactInfo">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#ServiceProviders"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Accommodation"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasPriceRange">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Accommodation"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalTourismActivities"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasOpeningHours">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Mosques"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasCapacity">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Accommodation"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#PrayerRooms"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasLatitude">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Destination"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Mosques"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasLongitude">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Destination"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Mosques"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasCertificationDate">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalCertifiedHotels"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasExpiryDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalCertifications"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasWebsite">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#ServiceProviders"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Destination"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasLanguages">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalTourismWebsites"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasEstablishmentDate">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#ServiceProviders"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Accommodation"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasCapacityMale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#GenderSegregatedAreas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasCapacityFemale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#GenderSegregatedAreas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasHalalCertificationAuthority">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalCertifiedHotels"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasPrayerTimes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#Mosques"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasAmenitiesList">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Accommodation"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasMenuItems">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasTourDuration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismActivities"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasReviewScore">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Accommodation"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasNumberOfReviews">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Accommodation"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+                    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/halaltourism#hasFoundingYear">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/halaltourism#ServiceProviders"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#AblutionFacilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#AblutionFacilities">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/halaltourism#WudhuFacilities"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#Accommodation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Accommodation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#AccommodationProviders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#AccommodationProviders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#ServiceProviders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#AlcoholFreeEnvironments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#AlcoholFreeEnvironments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#AttractionOperators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#AttractionOperators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#ServiceProviders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#City">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Country">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Destination"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#Destination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Destination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#DestinationsAndAttractions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#DestinationAttributes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#DestinationAttributes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Destination"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#DestinationManagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#DestinationManagement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismManagement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#DestinationManagementOrganizations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#DestinationManagementOrganizations">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/halaltourism#TourismBoards"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Stakeholders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#DestinationsAndAttractions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#DestinationsAndAttractions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#FoodAndBeverage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#FoodAndBeverage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#FoodAndBeverageProviders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#FoodAndBeverageProviders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#ServiceProviders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#GamblingFreeEnvironments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#GamblingFreeEnvironments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#GenderSegregatedAreas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#GenderSegregatedAreas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#DestinationAttributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#GenderSegregatedRecreaationalFacilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#GenderSegregatedRecreaationalFacilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#GenderSegregatedRecreationalFacilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#GenderSegregatedRecreationalFacilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismActivities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalCertificationAuthorities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#RegulatoryBodies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalCertifications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalCertifications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#RegulationsAndCompliance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalCertifiedHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalCertifiedHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Accommodation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalCertifiedRestaurants">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalCosmetics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalCosmetics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalFriendlyDestinations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalFriendlyDestinations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#DestinationAttributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalProducts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalProducts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Shopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalStandards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalStandards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#RegulationsAndCompliance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalSwimmingSuits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalSwimmingSuits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalProducts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalTourOperator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalTourOperator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#ServiceProviders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalTourism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalTourism">
+        <definition>Tourism services and activities that adhere to Islamic principles, catering primarily to Muslim travelers but also accessible to non-Muslims. This encompasses all aspects of travel that comply with Shariah law, including accommodation, food, activities, and facilities.</definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalTourismActivities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalTourismActivities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#DestinationsAndAttractions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalTourismManagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalTourismManagement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalTourismWebsites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalTourismWebsites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#InformationAndTechnology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#HalalTravelAgency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#HalalTravelAgency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#ServiceProviders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#InformationAndTechnology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#InformationAndTechnology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#IslamicCulturalCenter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#IslamicCulturalCenter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#IslamicDressCode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#IslamicDressCode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#IslamicGovernanceInstitutions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#IslamicGovernanceInstitutions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#RegulatoryBodies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#IslamicHeritageSites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#IslamicHeritageSites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#IslamicHospitality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#IslamicHospitality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#IslamicLifestyle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#IslamicLifestyle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#IslamicEthicalAndCultural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#IslamicMuseum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#IslamicMuseum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#Mosques -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Mosques">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimFriendlyAirlines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyAirlines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#TravelAndTransportation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimFriendlyAirports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyAirports">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#TravelAndTransportation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyAttractions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#DestinationsAndAttractions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimFriendlyBus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyBus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimFriendlyCruises -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyCruises">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#TravelAndTransportation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#TravelAndTransportation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimFriendlyHealthcareAndWellnessService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyHealthcareAndWellnessService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismActivities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimFriendlyHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Accommodation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyMobileApplications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#InformationAndTechnology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimFriendlyRestaurants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyRestaurants">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyTouristDestinations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Destination"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimFriendlyVan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimFriendlyVan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#MuslimFriendlyGroundTransportation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimGenAlphaTravelers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimGenAlphaTravelers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimGenYTravelers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimGenYTravelers">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/halaltourism#MuslimMillennialTravelers"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimGenZTravelers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimGenZTravelers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimMillennialTravelers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimMillennialTravelers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimTourists -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimTourists">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Tourists"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#MuslimWomenTravelers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#MuslimWomenTravelers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#MuslimTourists"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#NonAlcoholicBeverages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#NonAlcoholicBeverages">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#FoodAndBeverage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#PrayerFacilitiesAtDestinations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#PrayerFacilitiesAtDestinations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#DestinationAttributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#PrayerRooms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#PrayerRooms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#QiblaDirectionIndicators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#QiblaDirectionIndicators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Region">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#RegulationsAndCompliance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#RegulationsAndCompliance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#RegulatoryBodies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#RegulatoryBodies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Stakeholders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#ServiceProviders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#ServiceProviders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Stakeholders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#ServiceQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#ServiceQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismManagement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#ShariahCompliantHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#ShariahCompliantHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Accommodation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#ShariahLawCompliance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#ShariahLawCompliance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#RegulationsAndCompliance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#Shopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Shopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismActivities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#Stakeholders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Stakeholders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#SustainableHalalTourismPractices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#SustainableHalalTourismPractices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourismManagement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#TourismBoards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#TourismBoards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Stakeholders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#Tourists -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#Tourists">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#Stakeholders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#TransportationProviders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#TransportationProviders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#ServiceProviders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#TravelAndTransportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#TravelAndTransportation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#HalalTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/halaltourism#WudhuFacilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/halaltourism#WudhuFacilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/halaltourism#FacilitiesAndInfrastructures"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
